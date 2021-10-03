@@ -19,7 +19,7 @@ int main() {
     printf("%0.1lf\n", summmm);
     // Concatenate and print the String variables on a new line
     // The 's' variable above should be printed first.
-    fgets(cha,sizeof(cha), stdin);
+    fgets(cha,sizeof(cha),stdin);
     printf("%s %s",s,cha);
     return 0;
 }
