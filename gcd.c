@@ -11,10 +11,14 @@ int main(){
     // it gives me same result . but why??
     else{
         while (b!=0){
-            t=b;
             b=a%b;
-            a=t;
+            a=b;
         }
+        // while (b!=0){
+        //     t=b;
+        //     b=a%b;
+        //     a=t;
+        // }
         gcd=a;
     }
     printf("GCD is %d\n",gcd);
