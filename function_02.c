@@ -1,6 +1,8 @@
 #include <stdio.h>
 int add (int a,int b){
-    return a+b ;
+    int c=b;
+
+    return a+b+c ;
 }
 int main (){
     int a,b,sum;
