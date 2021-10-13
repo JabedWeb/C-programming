@@ -13,5 +13,4 @@ int main(){
     printf("give me exp Number :");
     scanf("%d",&exp);
     exp_power(base,exp);
-    // printf("the result is %d",result);
 }
