@@ -2,7 +2,7 @@
 int max_number (int ara[6]){
     int i;
     int max =ara[0];
-    for (i=0;i<6;i++){
+    for (i=1;i<6;i++){
         if(ara[i]>max){
             max=ara[i];
         }
