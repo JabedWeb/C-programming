@@ -5,10 +5,12 @@ int main(){
   printf("%s\n",country);
    for(i=0;i<lenth;i++){
        if(country[i]>=97 && country[i]<=122){
-        //    country[i]='A'+(country[i]-'a');
-           country[i]=country[i]-32;
+           country[i]='A'+(country[i]-'a');
+        //    country[i]=country[i]-32;
        }
    }
    printf("%s",country);
    return 0;
+   //input Bangldesh
+   //output BANGLADESH
 }

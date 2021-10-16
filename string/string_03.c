@@ -18,4 +18,7 @@ int main(){
    }
    printf("%s",country);
    return 0;
+
+   //input BanGldesh
+   //output bangladesh
 }
