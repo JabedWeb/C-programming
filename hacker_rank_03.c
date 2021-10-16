@@ -13,6 +13,7 @@ int main() {
     for(i=0;i<n;i++){
         sum=sum+a[i];
     }
+    printf("%d",sum);
 
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
     return 0;

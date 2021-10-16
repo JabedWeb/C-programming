@@ -8,7 +8,8 @@ int main()
     scanf("%c",&ch);
     scanf("%s",s);\
     scanf("\n");
-    scanf("%[^\n]*s",sen);
+    scanf("%[^\n]%*s",sen);
+    //scanf("%[^\n]*c",sen); both *c and *s work
     
     printf("%c\n",ch);
     printf("%s\n",s);
