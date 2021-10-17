@@ -10,7 +10,8 @@ int main(){
         else if (n >10){
             break;
         }
-    printf("%d\n",n);    
+    printf("%d\n",n); 
+
     }
     return 0;
 }
