@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    char ara[100];
-    while (NULL !=gets(ara)){
-      printf("this first no is %s",ara);
+    int n,n1;
+    int value=scanf("%d %d",&n, &n1);
     }
+    printf("the value is %d",value);
     return 0;
 }
